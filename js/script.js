@@ -1,9 +1,4 @@
-function printMessage(msg) {
-    let div = document.createElement('div');
-    div.innerHTML = msg;
-    document.getElementById('messages').appendChild(div);
-}
+let computerMove = 'kamien';
+let playerMove = 'papier';
 
-function clearMessages() {
-    document.getElementById('messages').innerHTML = '';
-}
+printMessage('Zagralem ' + computerMove + '! Jesli Twoj ruch to ' + playerMove + ', to wygrywasz!');
